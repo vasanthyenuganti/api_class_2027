@@ -16,3 +16,5 @@ class MainApp extends StatelessWidget {
   }
 }
 
+ // https://generativelanguage.googleapis.com/v1beta/models/${MODEL_ID}:${GENERATE_CONTENT_API}?key=${GEMINI_API_KEY}
+

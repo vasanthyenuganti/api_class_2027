@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:api_class_2027/user_bot.dart';
 import 'package:api_class_2027/user_model.dart';
 import 'package:api_class_2027/user_profile_page.dart';
 import 'package:flutter/cupertino.dart';
@@ -172,6 +173,14 @@ class _UserSearchState extends State<UserSearch> {
             ),
           ],
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => UserBot()),
+          );
+        },
       ),
     );
   }
